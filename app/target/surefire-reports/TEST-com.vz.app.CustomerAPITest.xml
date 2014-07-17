@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.044" errors="0" skipped="0" tests="8" name="com.vz.app.CustomerAPITest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/cparikh/Documents/workspace_test/app"/>
+    <property name="java.runtime.version" value="1.7.0_13-b20"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/cparikh/Documents/workspace_test/app"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/cparikh/Documents/workspace_test/app/target/surefire/surefirebooter4008851334434431493.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/rn/wvsx_f2s6_n27n__4t58vmcs2qlg7n/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="US-ASCII"/>
+    <property name="java.library.path" value="/Users/cparikh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/cparikh/Documents/workspace_test/app/target/test-classes:/Users/cparikh/Documents/workspace_test/app/target/classes:/Users/cparikh/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.5/jackson-mapper-asl-1.8.5.jar:/Users/cparikh/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.5/jackson-core-asl-1.8.5.jar:/Users/cparikh/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/cparikh/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/cparikh/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar:/Users/cparikh/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/cparikh/.m2/repository/javax/validation/validation-api/1.1.0.Alpha1/validation-api-1.1.0.Alpha1.jar:/Users/cparikh/.m2/repository/org/hibernate/hibernate-validator/4.3.0.Final/hibernate-validator-4.3.0.Final.jar:/Users/cparikh/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar:/Users/cparikh/.m2/repository/org/hibernate/hibernate-validator-annotation-processor/4.3.0.Final/hibernate-validator-annotation-processor-4.3.0.Final.jar:/Users/cparikh/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/cparikh"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="user.name" value="cparikh"/>
+    <property name="java.class.path" value="/Users/cparikh/Documents/workspace_test/app/target/test-classes:/Users/cparikh/Documents/workspace_test/app/target/classes:/Users/cparikh/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.5/jackson-mapper-asl-1.8.5.jar:/Users/cparikh/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.5/jackson-core-asl-1.8.5.jar:/Users/cparikh/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/cparikh/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/cparikh/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar:/Users/cparikh/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/cparikh/.m2/repository/javax/validation/validation-api/1.1.0.Alpha1/validation-api-1.1.0.Alpha1.jar:/Users/cparikh/.m2/repository/org/hibernate/hibernate-validator/4.3.0.Final/hibernate-validator-4.3.0.Final.jar:/Users/cparikh/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar:/Users/cparikh/.m2/repository/org/hibernate/hibernate-validator-annotation-processor/4.3.0.Final/hibernate-validator-annotation-processor-4.3.0.Final.jar:/Users/cparikh/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/Users/cparikh/Documents/workspace_test/app/target/surefire/surefirebooter4008851334434431493.jar /Users/cparikh/Documents/workspace_test/app/target/surefire/surefire379549002255226010tmp /Users/cparikh/Documents/workspace_test/app/target/surefire/surefire5215972750917896701tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_13"/>
+    <property name="java.ext.dirs" value="/Users/cparikh/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/cparikh/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.759" classname="com.vz.app.CustomerAPITest" name="testCreateCustomerSuccess"/>
+  <testcase time="0.037" classname="com.vz.app.CustomerAPITest" name="testCreateCustomerFailure"/>
+  <testcase time="0.035" classname="com.vz.app.CustomerAPITest" name="testCreateCustomer2Success"/>
+  <testcase time="0.04" classname="com.vz.app.CustomerAPITest" name="testReadCustomerSuccess"/>
+  <testcase time="0.039" classname="com.vz.app.CustomerAPITest" name="testCreateCustomer3Success"/>
+  <testcase time="0.033" classname="com.vz.app.CustomerAPITest" name="testUpdateCustomerSuccess"/>
+  <testcase time="0.037" classname="com.vz.app.CustomerAPITest" name="testCreateCustomer4Success"/>
+  <testcase time="0.018" classname="com.vz.app.CustomerAPITest" name="testDeleteCustomerSuccess"/>
+</testsuite>
